@@ -14,26 +14,6 @@
         <div>
             <h4 id="evSel">Eventos del Teclado: </h4>
             <table border="2">
-                <tr>
-                    <th>Evento</th>
-                    <th>Control</th>
-                    <th>Valor</th>
-                </tr>
-                
-                <tr>
-                    <td>KeydUp</td>
-                    <td><input id='kValInDw' type="text"></td>
-                    <td><label id='kValDw'>s</label></td>
-                </tr>
-                
-                <tr>
-                    <td>KeyUp</td>
-                    <td><input id='kValInUp' type="text"></td>
-                    <td><label id='kValUp'>s</label></td>
-                </tr>
-            </table>
-
-            <table border="2">
                     <tr>
                         <th>Evento</th>
                         <th>Control</th>
@@ -41,19 +21,28 @@
                     </tr>
                     
                     <tr>
-                        <td>KeydUp</td>
-                        <td><input id='kValInDw' type="text"></td>
-                        <td><label id='kValDw'>s</label></td>
+                        <td>KeydPress</td>
+                        <td><input id='kValInPs' type="text"></td>
+                        <td><label id='kValPs'></label></td>
                     </tr>
                     
                     <tr>
-                        <td>KeyUp</td>
+                        <td>KeyDown</td>
                         <td><input id='kValInUp' type="text"></td>
-                        <td><label id='kValUp'>s</label></td>
+                        <td><label id='kValUp'></label></td>
+                    </tr>
+
+                    <tr>
+                        <td>KeyUp</td>
+                        <td><input id='kValInDw' type="text"></td>
+                        <td><label id='kValDw'></label></td>
                     </tr>
                 </table>
 
+                <hr/>
+
                 <table border="2">
+                        <h4 id="evSel">Eventos del Raton: </h4>
                         <tr>
                             <th>Evento</th>
                             <th>Control</th>
@@ -61,15 +50,21 @@
                         </tr>
                         
                         <tr>
-                            <td>KeydUp</td>
-                            <td><input id='kValInDw' type="text"></td>
-                            <td><label id='kValDw'>s</label></td>
+                            <td>MouseMove</td>
+                            <td><input id='mValInMv' type="text"></td>
+                            <td><label id='mValMv'></label></td>
                         </tr>
                         
                         <tr>
-                            <td>KeyUp</td>
+                            <td>KeyDown</td>
                             <td><input id='kValInUp' type="text"></td>
-                            <td><label id='kValUp'>s</label></td>
+                            <td><label id='kValUp'></label></td>
+                        </tr>
+    
+                        <tr>
+                            <td>KeyUp</td>
+                            <td><input id='kValInDw' type="text"></td>
+                            <td><label id='kValDw'></label></td>
                         </tr>
                     </table>
         </div>
