@@ -1,0 +1,12 @@
+body{
+    background: gray;
+    margin: 0%;
+}
+
+#message {
+    min-height: 20px;
+    width: 300px;
+    border: 1px solid orange;
+    padding: 5px;
+}
+
