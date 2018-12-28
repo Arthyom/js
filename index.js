@@ -1,5 +1,5 @@
 
-window.onload = saludar;
+/*window.onload = saludar;
 
 function saludar (){
     document.getElementById('holis').innerHTML = '<s>perro</s>'
@@ -18,8 +18,11 @@ function selecccionar(){
 
 
 
-    
-}
+    +
+}*/
+
+// usamos jquerry
+
 
 
 
